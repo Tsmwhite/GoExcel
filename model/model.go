@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	DB_DRIVER = "zbcg:fGg!WhQ8KWgKB@@tcp(rm-uf690v9wug7u7z877po.mysql.rds.aliyuncs.com:3306)/zbcg?charset=utf8"
+	DB_DRIVER = "user:password@/dbname?charset=utf8&parseTime=True&loc=Local"
 )
 
 var Db *gorm.DB
